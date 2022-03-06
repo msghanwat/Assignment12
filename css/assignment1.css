@@ -1,0 +1,36 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    height: 200px;
+    background-color: aqua;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sidebar{
+    height: 400px;
+    width:20%;
+    background-color: aquamarine;
+    float: left;
+    margin-bottom: 10px;
+}
+.mainsection{
+    
+    height: 400px;
+    width: 75%;
+    background-color: aquamarine;
+    float: right;
+    margin-bottom: 10px;
+    
+}
+.bottom{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    clear: both;
+    
+    
+    
+}
