@@ -23,6 +23,7 @@
     background-color: greenyellow;
     float: left;
     margin-right: 5px;
+    text-align: center;
 }
 .artical{
     height: 300px;
@@ -31,6 +32,7 @@
     float: left;
     overflow: auto;
     margin-right: 5px;
+    text-align: center;
 }
 .side{
     height: 350px;
@@ -40,10 +42,12 @@
     float: right;
     margin-bottom: 5px;
     margin-right: 0%;
+    text-align: center;
 }
 .footer{
     height: 150px;
     width: 100%;
     background-color: aqua;
     clear: both;
+    text-align: center;
 }
