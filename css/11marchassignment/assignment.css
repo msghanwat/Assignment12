@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:1200px;
+    height:1000px;
+    background-color: aqua;
+}
+.header{
+    width:1200px;
+    height:150px;
+    background-color: dimgray;
+}
+.branding{
+    height: 150px;
+    width: 400px;
+    float: left;
+    background-color: chartreuse;
+}
+.socialmedia{
+    height: 100px;
+    width: 800px;
+    margin-bottom: 50px;
+    background-color: coral;
+    overflow: auto;
+
+}
+
+.gallary{
+    width:1200px;
+    height: 400px;
+    background-color: darkorange;
+}
+.container{
+    width: 1200px;
+    height: 400px;
+    background-color: darkgoldenrod;
+
+}
+.bootcamp{
+    width:300px;
+    height: 400px;
+    background-color: red;
+    float:left
+}
+.cloud{
+    width:300px;
+    height:400px;
+    background-color: brown;
+    float:left;
+    overflow: auto;
+}
+.machine{
+    width:300px;
+    height: 400px;
+    background-color: crimson;
+    float: left;
+    overflow: auto;
+}
+.system{
+    width:300px;
+    height: 400px;
+    background-color: pink;
+    float: right;
+    overflow: auto;
+
+}
+.footer{
+    width: 1200px;
+    height:50px ;
+    background-color: rebeccapurple;
+    clear:both;
+}
