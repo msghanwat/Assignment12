@@ -24,7 +24,16 @@
     margin-bottom: 50px;
     background-color: coral;
     overflow: auto;
+    float: right;
 
+}
+.menu{
+    height: 50px;
+    width: 790px;
+    background-color: yellow;
+    overflow: auto;
+    float: right;
+    clear: both;
 }
 
 .gallary{
