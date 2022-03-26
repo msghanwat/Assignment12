@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mycontainer{
+    width: 90%;
+    height: 90vh;
+    background-color: crimson;
+    margin: 5% 5vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header header"
+    "menu main main ad1"
+    "menu main main ad1"
+    "ad2 main main ad1"
+    "footer footer footer footer";
+}
+.grid-item{
+    min-height: 100px;
+    background-color: darkslategray;
+    text-align: center;
+}
+.header{
+    grid-area: header;
+}
+.menu{
+    grid-area: menu;
+}
+.ad1{
+    grid-area: ad1;
+}
+.main{
+    grid-area: main;
+}
+.ad2{
+    grid-area: ad2;
+}
+.footer{
+    grid-area: footer;
+}

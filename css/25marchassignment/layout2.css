@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mycontainer{
+    width: 90%;
+    height: 90vh;
+    background-color: red;
+    margin: 5% 5vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "layout layout layout layout"
+    "nav main main sidebar"
+    "nav main main sidebar"
+    "nav main main sidebar"
+    "footer footer footer footer";
+}
+.myitem{
+    min-height: 100px;
+    border: 1px solid black;
+}
+.box1{
+    grid-area: layout;
+    background-color: green;
+}
+.box2{
+    grid-area: nav;
+    background-color: greenyellow;
+}
+.box3{
+    grid-area: main;
+    background-color: blue;
+}
+.box4{
+    grid-area: sidebar;
+    background-color: greenyellow;
+}
+.box5{
+    grid-area: footer;
+    background-color: green;
+}

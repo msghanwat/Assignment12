@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0; 
+    
+}
+.mycontainer{
+    width: 90%;
+    height: 90vh;
+    background-color: aqua;
+    margin: 5% 5vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header header header"
+    "navigation navigation navigation navigation navigation"
+    "content1 main main main content2"
+    "content1 main main main content2"
+    "footer footer footer footer footer";
+  
+}
+.myitem{
+ min-height: 100px;
+ background-color: gray;
+   
+}
+.box1{
+    grid-area: header;
+}
+.box2{
+    grid-area: navigation;
+}
+.box3{
+    grid-area: content1;
+}
+.box4{
+    grid-area: content2;
+}
+.box5{
+    grid-area: main;
+}
+.box6{
+    grid-area: footer;
+}

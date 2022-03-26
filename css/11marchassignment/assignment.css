@@ -31,6 +31,10 @@
     margin-top: 100px;
     margin-left: 400px;
 }
+.menu ul{
+    background-color: gray;
+    list-style: none;
+}
 
 .gallary{
     width:1200px;

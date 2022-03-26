@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myresult(){
+            age= document.getElementById('mark').value;
+            if (age>=18){
+                document.getElementById('ans').innerHTML='you can vote...your age is:' +age;
+            }
+            else{
+                document.getElementById('ans').innerHTML='you cant vote...your age is:' +age;
+            }
+        }
+       /* function myresult(){
+            mark= document.getElementById('mark').value;
+            if(mark>40){
+               // document.write('passed');
+               document.getElementById('ans').innerHTML='you are passed:' +mark;
+            }
+            else{
+               // document.write('failed');
+               document.getElementById('ans').innerHTML='you are failed:' +mark;
+            }
+        }*/
+        
+        
+    </script>
+    <style>
+        div{background-color: orange;
+            height: 1000px;
+            width: 1000px;
+
+        }
+        .mitesh{
+            height: 500px;
+            width: 500px;
+            background-color: green;
+            color: orangered;
+            margin: auto;;
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <div class="mitesh">
+    enter your age<input type="text" id="mark">
+    <input type="button" value="result" onclick="myresult()">
+    <p id="ans">your result is declaired</p>
+    </div>
+        </div>
+</body>
+</html>
